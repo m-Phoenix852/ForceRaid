@@ -25,7 +25,7 @@ let createBot = (cfg) => {
         opts     
     );
 
-    bindEvents(bot);
+    bindEvents(bot, opts, cfg);
 
     return bot;
 }
