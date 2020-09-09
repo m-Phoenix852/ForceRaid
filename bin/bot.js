@@ -36,7 +36,7 @@ let bindEvents = (bot, opts, cfg) => {
     })
 
     bot.on('end', async () => {
-        await sleep(cfg.throttle_delay);
+        await utils.sleep(cfg.throttle_delay);
 
         bot = mineflayer.createBot(
             opts
