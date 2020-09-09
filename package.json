@@ -27,7 +27,7 @@
     "bots",
     "spammer"
   ],
-  "author": "Phoenix852",
+  "contributors": ["Phoenix852", "swz"],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/m-phoenix852/forceraid/issues"
