@@ -1,0 +1,37 @@
+{
+  "name": "forceraid",
+  "version": "1.0.0",
+  "description": "Fuck your neighbor's kid's minecraft server.",
+  "main": "bin/index.js",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "express": "^4.17.1",
+    "mineflayer": "^2.28.1",
+    "randexp": "^0.5.3",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "fraid": "./bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-phoenix852/forceraid.git"
+  },
+  "keywords": [
+    "minecraft",
+    "raid",
+    "bots",
+    "spammer"
+  ],
+  "author": "Phoenix852",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/m-phoenix852/forceraid/issues"
+  },
+  "homepage": "https://github.com/m-phoenix852/forceraid#readme"
+}
