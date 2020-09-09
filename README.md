@@ -1,6 +1,6 @@
+[![LOGO](https://fraid.vercel.app/imgs/Logo.svg)](https://fraid.vercel.app/)  
 # ForceRaid
-[![LOGO](https://fraid.vercel.app/imgs/Logo.svg)](https://fraid.vercel.app/)
-Fuck with your neighbor's minecraft server
+Fuck with your neighbor's minecraft server  
 [![NPM](https://nodei.co/npm/forceraid.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/forceraid/)
 # Installation
 Make sure you have [NodeJS](https://nodejs.org/) installed.  
