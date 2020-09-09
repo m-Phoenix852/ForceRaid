@@ -1,14 +1,13 @@
 {
   "name": "forceraid",
-  "version": "1.0.0",
+  "version": "0.1.1",
   "description": "Fuck your neighbor's kid's minecraft server.",
   "main": "bin/index.js",
   "dependencies": {
     "chalk": "^4.1.0",
     "express": "^4.17.1",
     "mineflayer": "^2.28.1",
-    "randexp": "^0.5.3",
-    "socket.io": "^2.3.0"
+    "randexp": "^0.5.3"
   },
   "devDependencies": {},
   "scripts": {
