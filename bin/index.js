@@ -9,18 +9,12 @@ let default_cfg = {
 }
 
 
-
 const mineflayer = require('mineflayer');
 const chalk = require('chalk');
 const express = require('express');
 const app = express();
-const server = require('http').createServer(app);
 const print = console.log;
 const bot = require('./bot.js');
-const sleep = require('./utils.js');
-
-let args = process.argv.splice(2);
-
 
 app.use(express.static(__dirname + '/../dist'));
 
