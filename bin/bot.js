@@ -1,5 +1,6 @@
 const utils = require('./utils');
 const mineflayer = require('mineflayer');
+const randexp = require('randexp');
 
 async function startRaid(cfg) {
     for(

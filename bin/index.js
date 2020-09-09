@@ -10,7 +10,6 @@ let default_cfg = {
 
 const mineflayer = require('mineflayer');
 const chalk = require('chalk');
-const randexp = require('randexp');
 const express = require('express');
 const app = express();
 const server = require('http').createServer(app);
