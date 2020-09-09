@@ -15,7 +15,6 @@ const chalk = require('chalk');
 const express = require('express');
 const app = express();
 const server = require('http').createServer(app);
-const io = require('socket.io')();
 const print = console.log;
 const bot = require('./bot.js');
 const sleep = require('./utils.js');
