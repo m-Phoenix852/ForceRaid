@@ -1,6 +1,7 @@
 const utils = require('./utils');
 const mineflayer = require('mineflayer');
 const randexp = require('randexp');
+const chalk = require('chalk');
 
 async function startRaid(cfg) {
     for(
@@ -11,6 +12,11 @@ async function startRaid(cfg) {
         let bot = createBot(cfg);
         await utils.sleep(cfg.throttle_delay);     
     }
+}
+
+async function stopRaid() {
+    console.log('Good bye, hope you had fun fucking that retard\'s server! If you like ForceRaid, please consider giving us a star on github: ' + chalk.blue('https://github.com/m-Phoenix852/ForceRaid/'));
+    process.exit(0);
 }
 
 let createBot = (cfg) => {
@@ -58,3 +64,4 @@ let genUsername = () => {
 }
 
 module.exports.startRaid = startRaid;
+module.exports.stopRaid = stopRaid;
