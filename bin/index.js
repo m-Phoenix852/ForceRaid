@@ -36,7 +36,7 @@ app.listen(5080, () => {
 
     print('\n\n\n\n\n');
 
-    print(`Fire up your browser and visit ${chalk.blue('https://forceraidgui.vercel.app')}!`);
+    print(`Fire up your browser and visit ${chalk.blueBright('https://forceraidgui.vercel.app')}!`);
 
 })
 
