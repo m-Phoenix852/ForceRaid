@@ -1,6 +1,6 @@
 {
   "name": "forceraid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fuck your neighbor's kid's minecraft server.",
   "main": "bin/index.js",
   "dependencies": {

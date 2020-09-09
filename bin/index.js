@@ -16,7 +16,7 @@ const app = express();
 const print = console.log;
 const bot = require('./bot.js');
 
-app.use(express.static(__dirname + '/../dist'));
+// app.use(express.static(__dirname + '/../dist'));
 
 app.listen(5080, () => {
     print(
