@@ -15,7 +15,7 @@ async function startRaid(cfg) {
 }
 
 async function stopRaid() {
-    console.log('Good bye, hope you had fun fucking that retard\'s server! If you like ForceRaid, please consider giving us a star on github: ' + chalk.blueBright('https://github.com/m-Phoenix852/ForceRaid/'));
+    console.log('\nGood bye, hope you had fun fucking that retard\'s server! If you like ForceRaid, please consider giving us a star on github: ' + chalk.blueBright('https://github.com/m-Phoenix852/ForceRaid/'));
     process.exit(0);
 }
 
