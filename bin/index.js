@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 let default_cfg = {
     host: 'localhost',
     port: 25565,
